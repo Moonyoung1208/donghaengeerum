@@ -50,6 +50,7 @@ img {
     --main-bg: #E9F5E7;
 }
 
+
 /* header */
 .header {
     position: fixed;
@@ -414,6 +415,10 @@ img {
         font-size: 14px;
     }
 
+    .br {
+        display: none;
+    }
+
     .header {
         height: 60px;
     }
@@ -531,7 +536,10 @@ img {
     }
 
     .tab-contents ul {
-        padding: 0;
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+        box-shadow: 2px 4px 8px #00000015;
+        background: #fff;
     }
 
     .tab-contents li {
